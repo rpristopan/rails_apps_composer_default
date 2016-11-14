@@ -1,0 +1,28 @@
+recipes:
+- setup
+- readme
+- gems
+- email
+- frontend
+- pagination
+- extras
+
+prefs:
+  :dev_webserver: webrick
+  :prod_webserver: same
+  :database: sqlite
+  :templates: erb
+  :tests: rspec
+  :integration: cucumber
+  :fixtures: factory_girl
+  :frontend: bootstrap3
+  :form_builder: none
+  :email: gmail
+  :authentication: devise
+  :devise_modules: default
+  :authorization: none
+  :pagination: kaminari
+
+args:
+  :skip_test_unit: yes
+  :skip_active_record: false
